@@ -20,5 +20,6 @@ from django.conf.urls import url
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^pedestriancountdetails/(?P<sensorId>\d+)/$',views.PedestrianCount)
+    url(r'^pedestriancountdetails/(?P<sensorId>\d+)/$',views.PedestrianCount),
+    url(r'^pedestriancountdetailslatest/', views.PedestrianCountLatest)
 ]

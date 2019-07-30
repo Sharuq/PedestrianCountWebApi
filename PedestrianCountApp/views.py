@@ -46,8 +46,7 @@ def getRealTimeLatestCount(sid):
 
 def getPredictedHourlyCount(month, day, hour, minute, sid):
     from firebase import firebase
-    authentication = firebase.FirebaseAuthentication('eb:ae:e6:5b:e6:b2:ff:db:1c:89:28:ff:b0:7b:cc:b6:eb:a7:97:6f',
-                                                     'cpen0004@student.monash.edu', True, True)
+    authentication = firebase.FirebaseAuthentication('YOUR ACCESS CODE', 'YOUR ID', True, True)
     firebase.authentication = authentication
     user = authentication.get_user()
 

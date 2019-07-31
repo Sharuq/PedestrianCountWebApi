@@ -8,3 +8,7 @@ OPEN API's used:
 Pedestrian Counting System - Past Hour (counts per minute) - https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counting-System-Past-Hour-counts-per-mi/d6mv-s43h
 
 Pedestrian Counting System – 2009 to Present (counts per hour) - https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-Counting-System-2009-to-Present-counts-/b2ak-trbp
+
+Check out the API hosted on heroku webserver on below link( *Change Sensor ID's [1-50] in url to check*)
+
+http://pedestriancountwebapi.herokuapp.com/combinedpedestriancount/12/
